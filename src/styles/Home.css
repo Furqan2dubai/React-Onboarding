@@ -1,0 +1,79 @@
+.box {
+  @apply w-40 h-40 bg-stone-500;
+}
+
+.popup{
+  background-color: #312787 ;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  padding-left: 150px;
+}
+.popup b{ 
+  padding-left: 10px;
+}
+.popup span {
+  margin-left: auto;
+  position: absolute;
+  right: 150px;
+}
+.post b,
+.comment_section h3,
+.container h1{
+  color: #312787; 
+}
+input[type="text"] {
+  border: 3px solid #312787;
+  width: 500px;
+  border-radius: 5px;
+  height: 40px;
+  padding: 5px 10px;
+  margin-top: 15px;
+}
+.post b{ 
+  font-size: 13px;
+}
+.post p{
+  color: #babecd;
+  font-size: 12px;
+}
+.post h5{
+  font-weight: bold;
+}
+.post{
+  margin-bottom: 40px;
+  width: 30% !important; 
+}
+.post h5,
+.post p{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.post img{
+  width: 100%;
+  border-radius: 10px 10px 0px 0;
+}
+.post .txt{
+  padding: 20px;
+}
+.post>div{
+  border-radius: 10px;
+}
+body, #root{
+  background-color: #f2f2f2;
+}
+.post_container{
+  width: 80%;
+  flex-flow: row wrap;
+}
+.comment_section {
+  border-bottom: 1px solid black;
+}
+b, h1,h2,h4{
+  cursor: pointer;
+}
+.line{
+  border-bottom:1px solid #e2e2e2; 
+  margin:20px 0px;
+}
